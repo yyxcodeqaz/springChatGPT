@@ -1,0 +1,4 @@
+com\chatgpt\springgpt\controller\ChatController.class
+com\chatgpt\springgpt\SpringGptApplication.class
+com\chatgpt\springgpt\service\impl\ChatInfoImpl.class
+com\chatgpt\springgpt\service\ChatInfo.class

@@ -1,0 +1,6 @@
+chat:
+  replyCount: 0
+  replyCountOld: 0
+spring:
+  application:
+    name: chatGPTInfo
