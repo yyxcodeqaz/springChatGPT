@@ -110,6 +110,7 @@ public class ChatInfoImpl implements ChatInfo {
         if (elemList.size() <= replyCount) {
             strInfo.append("发生未知错误，未收到回复");
             replyCount = 0;
+            webDriver.navigate().refresh();
             return strInfo.toString();
         }
         //返回数据到接口
