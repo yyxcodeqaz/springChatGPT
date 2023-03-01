@@ -67,7 +67,7 @@ public class ChatInfoImpl implements ChatInfo {
     @Override
     public List<WebElement> chatReplyList(WebDriver webDriver) {
         //获取reply的信息
-        List<WebElement> infoEle = webDriver.findElements(By.cssSelector(".markdown > p , .markdown > ol li > p , .markdown > pre > div > div > code"));
+        List<WebElement> infoEle = webDriver.findElements(By.cssSelector(".markdown > p , .markdown > ol li , .markdown > pre > div > div > code"));
         if (infoEle.size() > 0) {
             return infoEle;
         } else {
